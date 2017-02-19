@@ -78,6 +78,8 @@ module.exports = React.createClass({
         <View style={this.getStyle(['row'])}>
           {this._renderImage()}
           {this._renderTitle()}
+          <View style={{borderColor: '#c8c7cc', borderLeftWidth: 1, height: 44}}>
+          </View>
           <TextInput
             ref='input'
             style={this.getStyle(['textInputInline'])}
