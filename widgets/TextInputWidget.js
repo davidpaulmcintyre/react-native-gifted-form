@@ -76,7 +76,7 @@ module.exports = React.createClass({
     return (
       <View style={this.getStyle(['rowContainer'])}>
         <View style={this.getStyle(['row'])}>
-          {this._renderImage()}
+          <View style={{width: 20}}>{this._renderImage()}</View>
           {this._renderTitle()}
           <View style={{borderColor: '#c8c7cc', borderLeftWidth: 1, height: 44}}>
           </View>
